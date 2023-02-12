@@ -4,16 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+
 namespace PracticaClase
 {
     internal class Program:Empleados
     {
         static void Main(string[] args)
         {
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
+           
+            Console.WriteLine("Bienvenido  \n");
 
-            Console.WriteLine("Bienvenido \n");
-
-            Console.WriteLine("Opciones\n 1- Comprar \n 2-Salir");
+            Console.WriteLine("Opciones\n1-Comprar un mueble \n2-Salir");
             int opcion = int.Parse(Console.ReadLine()); 
 
             switch (opcion)
@@ -27,6 +30,7 @@ namespace PracticaClase
                     Inmuebles inmuebles = new Inmuebles();
                     inmuebles.TipoMueble(inmuebles.Tipo);
                     contrato.Contrato(contrato.TContrato);
+                    Console.WriteLine("Gracias por su compra...");
                     Console.WriteLine(cliente.Ver());
                     Console.WriteLine(emp.Empleado());
                     Console.WriteLine(inmuebles.Mirar());

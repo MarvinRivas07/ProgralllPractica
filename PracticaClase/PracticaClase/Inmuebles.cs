@@ -18,7 +18,7 @@ namespace PracticaClase
 
             this.Tipo = _Tipo;
             Empleados empleado = new Empleados();
-            Console.WriteLine("Ingrese el tipo de mueble que desea: \n1-Sofas \n2-Mesas \n3-Sillas \n 4-Camas \n5-Televisores");
+            Console.WriteLine("Seleccione el tipo de mueble que le gustaria comprar: \n1-Sofas \n2-Mesas \n3-Sillas \n4-Camas \n5-Televisores");
             int opcion = int.Parse(Console.ReadLine());
             switch (opcion)
             {

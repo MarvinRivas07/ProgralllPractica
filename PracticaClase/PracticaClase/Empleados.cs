@@ -8,38 +8,39 @@ namespace PracticaClase
 {
     internal class Empleados:Inmuebles
     {
-        private string NombreEmpleado;
-
-        public string NombreEmpleado1 { get => NombreEmpleado; set => NombreEmpleado = value; }
+        
 
         public void Empleadoos(string _nombreEmpleado)
         {
-            this.NombreEmpleado = _nombreEmpleado;
+           
             
             
-            Console.WriteLine("Bienvenido un gusto atenderle, seleccione el empleado que desee que lo atiemda:\n1-Manuel\n2-Jordy\n3-Daniel\n4-Andy\n5-Marvin\n");
+            Console.WriteLine("Bienvenido un gusto atenderle, seleccione el empleado que desee que lo atienda:\n1-Manuel\n2-Jordy\n3-Daniel\n4-Andy\n5-Marvin\n");
             int opcion = int.Parse(Console.ReadLine());
             switch (opcion)
             {
                 case 1:
                     Nombre = "Manuel";
+                    Apellido = "Castro";
+
                     
                     break;
                 case 2:
                     Nombre = "Jordy";
+                    Apellido = "Cortez";
                     
                     break;
                 case 3:
                     Nombre = "Daniel";
-                    
+                    Apellido = "Tejada";
                     break;
                 case 4:
                     Nombre = "Andy";
-                   
+                    Apellido = "Moran";
                     break;
                 case 5:
                     Nombre = "Marvin";
-                    
+                    Apellido = "Rivas";
                     break;
             }
 
@@ -47,7 +48,7 @@ namespace PracticaClase
         public String Empleado()
         {
 
-            return "El empleado que lo atendio:" + Nombre + "";
+            return "El empleado que lo atendio:" + Nombre + " " + Apellido;
         }
 
     }

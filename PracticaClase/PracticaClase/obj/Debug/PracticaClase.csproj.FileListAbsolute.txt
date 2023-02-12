@@ -6,3 +6,11 @@ C:\Users\Marvi\Desktop\PROGRA lll\PracticaClase\PracticaClase\obj\Debug\Practica
 C:\Users\Marvi\Desktop\PROGRA lll\PracticaClase\PracticaClase\obj\Debug\PracticaClase.csproj.CoreCompileInputs.cache
 C:\Users\Marvi\Desktop\PROGRA lll\PracticaClase\PracticaClase\obj\Debug\PracticaClase.exe
 C:\Users\Marvi\Desktop\PROGRA lll\PracticaClase\PracticaClase\obj\Debug\PracticaClase.pdb
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\bin\Debug\PracticaClase.exe.config
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\bin\Debug\PracticaClase.exe
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\bin\Debug\PracticaClase.pdb
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\obj\Debug\PracticaClase.csproj.AssemblyReference.cache
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\obj\Debug\PracticaClase.csproj.SuggestedBindingRedirects.cache
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\obj\Debug\PracticaClase.csproj.CoreCompileInputs.cache
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\obj\Debug\PracticaClase.exe
+C:\Users\Marvi\Desktop\ProgralllPractica\PracticaClase\PracticaClase\obj\Debug\PracticaClase.pdb

@@ -18,6 +18,8 @@ namespace PracticaClase
         {
             try
             {
+                Console.WriteLine("Ingrese sus datos personales:");
+                Console.WriteLine("");
                 Console.WriteLine("Por favor ingrese su nombre");
                 Nombre = Console.ReadLine();
                 Console.WriteLine("Por favor ingrese su apellido");
@@ -36,7 +38,7 @@ namespace PracticaClase
         public String Ver()
         {
 
-            return "Nombre de cliente:" + Nombre + "Apellido " + Apellido + "Numero de DUI:" + DUI;
+            return "Nombre de cliente:" + Nombre + "   " + "Apellido: " + Apellido + "  " + "Numero de DUI:" + DUI;
         }
 
     }
